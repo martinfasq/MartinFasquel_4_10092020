@@ -659,7 +659,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 34px;
     margin: 35px;
 }
 
@@ -678,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -776,8 +776,9 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F7C4AA!important;
 }
+
 
 .btn-atomic-tangerine {
     background: #F3976C;
