@@ -659,8 +659,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 34px;
-    margin: 35px;
+       margin-bottom: 20px;
 }
 
 .hero-bloc-text-sub {
@@ -703,6 +702,17 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+}
+
+.banner{
+    background-color: rgba(0, 0, 0, .5);
+    padding: 1px;
+    border-radius: 60px;
+    margin-inline: 100px;
+}
+
+.contact{
+    padding-bottom: 40px;
 }
 
 h2 {
@@ -754,7 +764,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(150, 150, 120, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -874,10 +884,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -886,8 +893,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1028,6 +1033,7 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
 }
 
 @media (max-width: 400px) {
