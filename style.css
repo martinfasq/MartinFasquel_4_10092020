@@ -647,7 +647,7 @@ h4 {
     box-shadow: 0 4px 9px rgba(0, 0, 0, 0.3);
 }
 .black-background {
-    background-color: rgba(150, 150, 120, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 40px 40px 40px 40px;
 }
 .bold-link {
